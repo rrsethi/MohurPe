@@ -231,8 +231,9 @@ body, html {
     padding: 10px;
     font-size: 3.5vw;
 }
+
 #emb .elements{
-    padding: 1px;
+    padding: 3px;
 }
 
 #footer{
@@ -242,13 +243,16 @@ body, html {
     font-size: 16px;
     text-decoration: none;
 }
+
 #footer h1{
     font-size: 18px;
 }
+
 #footer a{
     color: rgba(71, 104, 252, 0.836);
     text-decoration: none;
 }
+
 #footer .column {
     display: block;
     -webkit-box-flex: 1;
