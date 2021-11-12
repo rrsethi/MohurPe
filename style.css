@@ -231,6 +231,9 @@ body, html {
     padding: 10px;
     font-size: 3.5vw;
 }
+#emb .elements{
+    padding: 1px;
+}
 
 #footer{
     background-color: rgb(224, 233, 254);
