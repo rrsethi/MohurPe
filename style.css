@@ -36,6 +36,9 @@ body, html {
     padding-left: 0;
 }
 
+#header .pcMenu{
+    display: none;
+}
 #header .rightBar a{
     float: right;
     color: #fff;
@@ -96,6 +99,7 @@ body, html {
 
 #wtmContent .dash{
     border: 2px solid rgba(71, 104, 252, 0.836);
+    background-color: rgba(71, 104, 252, 0.836);
     width: 7%;
     height: 0.4%;
     margin-top: 3%;
@@ -236,6 +240,14 @@ body, html {
     padding-bottom: 5vw;
 }
 
+#emb .bme{
+    font-size: 8vw;
+}
+
+#emb .emb h1{
+    font-size: 5vw;
+    padding-bottom: 3vw;
+}
 #footer{
     background-color: rgb(224, 233, 254);
     color: #00052ba1;
@@ -330,3 +342,142 @@ body, html {
     color: white;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 800px) {
+    #header .rightBar{
+        display: none;
+    }
+    #header .pcMenu {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #header .pcMenu a{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #header .centerMenu{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #header .rightMenu{
+        text-decoration: none;
+        float: right;
+        color: #fff;
+    }
+
+    #header .pcMenu a:hover{
+        color: rgb(71, 104, 252);
+        font-size: 125%;
+    }
+
+    #header .active{
+        color: rgb(71, 104, 252);
+    }
+
+    #wtmContent{
+        height: 60vw;
+        padding: 15px;
+    }
+
+    #wtmContent h1{
+        padding-top: 12vw;
+        font-size: 4vw;
+    }
+
+    #wtmContent .dash{
+        width: 40px;
+        height: 0.5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #wtmContent .wtmText{
+        font-size: 30px;
+    }
+    #wtmContent button{
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+        font-size: 20px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    #offers {
+        display: block;
+        /* border-left: 10vw; */
+        padding-left: 10vw;
+        padding-right: 10vw;
+        /* text-align: center; */
+    }
+
+    #offers .ofr img{
+        position: relative;
+        background-size: 100%;
+        /* border-left: 10vw; */
+
+        width: 80vw;
+        height: 40vw;
+    }
+
+    #offers .ofr{
+        display: none;
+    }
+
+    #offers .next {
+        margin-right: 10vw;
+    }
+
+    #offers .ofr .text{
+        font-size: 30px;
+    }
+
+    #offers .ofr .tc{
+        font-size: 15px;
+    }
+
+    #emb{
+        /* color: rgb(224, 233, 254); */
+        /* padding: 10px; */
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    #emb .bme{
+        font-size: 60px;
+    }
+
+    #emb .emb{
+        /* background-color: #00052b; */
+        /* box-shadow: 1px 1px 3px 3px rgba(147, 179, 255, 0.274); */
+        /* padding: 10px; */
+        font-size: 25px;
+    }
+    #emb .emb h1{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    #emb .elements{
+        padding-bottom: 40px;
+    }
+}
