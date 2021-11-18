@@ -7,10 +7,13 @@
 
 body, html {
     height: 100%;
+    background-color: #00052b;
+    /* background-color: rgb(224, 233, 254); */
 }
 
 #Web {
     background-color: #00052b;
+    /* background-color: rgb(224, 233, 254); */
 }
 
 #header{
@@ -342,14 +345,70 @@ body, html {
     color: white;
 }
 
+#soon {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#soon .logo img{
+    padding: 10vw;
+    aspect-ratio: 1/1;
+    height: 300px;
+    padding-bottom: 20px;
+}
+
+#soon .logoText a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+#soon .wwbcs{
+    color:rgba(71, 104, 252, 0.836);
+    font-size: 8vw;
+    padding-bottom: 20px;
+}
+
+#soon .goback{
+    padding-bottom: 20px;
+}
+
+#soon button{
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 1%;
+    background-color: rgb(224, 233, 254);
+    color: #00052b;
+    font-size: 3vw;
+    border-color: rgb(224, 233, 254);
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+}
+
+#soon button:hover {
+    background-color: #00052b;
+    color: #fff;
+}
 
 
 
 
 
 
-
-
+@media only screen and (min-width: 640px) {
+    #soon .logo img{
+        padding-top: 60px;
+    }
+    #soon .wwbcs{
+        font-size: 50px;
+    }
+}
 
 
 
@@ -480,4 +539,18 @@ body, html {
     #emb .elements{
         padding-bottom: 40px;
     }
+
+    #soon button{
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+        font-size: 20px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
 }
