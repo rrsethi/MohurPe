@@ -39,6 +39,11 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+// var logout = true;
+// logout= false;
+
 function goBack() {
   window.history.back();
 }
+
+

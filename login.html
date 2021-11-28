@@ -9,128 +9,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/mLogo.png" type="images/png" sizes="16x16">
-    <title>Welcome to MohurPe</title>
+    <title>Login to MohurPe</title>
 </head>
 
 <body>
     <section id="Web">
-        <section id="HHHeader">
-            <section id="header">
-                <a href="index.html">
-                    <img class="logo" src="images/mLogo1.png" alt="logo">
-                </a>
-                <a class="logoText" href="index.html">MohurPe</a>
-                <div class="header">
-                    <div class="rightBar">
-                        <a id="menuBar" class="" href="javascript:void(0)" onclick="menuFunction()"><i class="fa fa-bars hover"></i></a>
-                        <a href="login.html ">Log In</a>
-                    </div>
-                    <div class="pcMenu">
-                        <a class="centerMenu" style="float:none" href="index.html">Home</a>
-                        <a class="centerMenu" href="soon.html">Payment Solution</a>
-                        <a class="centerMenu" href="soon.html">Partner</a>
-                        <a class="centerMenu" href="soon.html">Contact</a>
-                        <a class="centerMenu" href="soon.html">About</a>
-                        <a class="rightMenu" href="signup.html">Sign Up</a>
-                        <a class="rightMenu active" href="login.html">Log In</a>
-                    </div>
+        <form method="post">
+            <section id="signin">
+                <div class="logo">
+                    <a href="index.html"><img src="images/mLogo1.png" alt=""></a>
                 </div>
-            </section>
-            <div id="menu">
-                <a class="active" href="index.html">Home</a>
-                <a href="soon.html">Payment Solution</a>
-                <a href="soon.html">Partner</a>
-                <a href="soon.html">Contact</a>
-                <a href="soon.html">About</a>
-                <div style="background-color:rgb(224, 233, 254);"><br></div>
-                <a href="login.html">Log In</a>
-                <a href="signup.html">Sign Up</a>
-            </div>
-        </section>
-        <section id="login">
-            
-        </section>
-        <section id="footer">
-            <div class="columns">
-                <div class="column">
-                    <div class="column">
-                        <ul style="list-style: none;">
-                            <li><h1>BANKING</h1></li>
-                            <li><a href="soon.html">Payment Gateway</a></li>
-                            <li><a href="soon.html">Payment Links</a></li>
-                            <li><a href="soon.html">Subscription</a></li>
-                            <li><a href="soon.html">UPI</a></li>
-                            <li><a href="soon.html">BharatQR</a></li>
-                            <li><a href="soon.html">Invoices</a></li>
-                        </ul>
-                    </div>
+                <div class="logoText">
+                    <a href="index.html"><h1>MohurPe</h1></a>
                 </div>
-                <div class="column">
-                    <div class="column">
-                        <ul style="list-style: none;">
-                            <li><h1>DEVELOPERS</h1></li>
-                            <li><a href="soon.html">Docs</a></li>
-                            <li><a href="soon.html">Integration</a></li>
-                            <li><a href="soon.html">API Reference</a></li>
-                        </ul>
-                    </div>
+                <div class="snsignup">
+                    <a href="signup.html"><button type="button">Sign Up</button></a>
                 </div>
-                <div class="column">
-                    <div class="column">
-                        <ul style="list-style: none;">
-                            <li><h1>RESOURCES</h1></li>
-                            <li><a href="soon.html">Blog</a></li>
-                            <li><a href="soon.html">Customer Stories</a></li>
-                            <li><a href="soon.html">Events</a></li>
-                        </ul>
-                    </div>
+
+                <div id="form">
+                    <label for="username"><b>Username</b></label>
+                    <input id="username" type="text" placeholder="Enter username" name="username" required>
+                    <label for="pwd"><b>Password</b></label>
+                    <input id="password" type="password" placeholder="Enter password" name="pwd" required>
+                    <button onclick="goBack()">Cancel</button>
+                    <button type="button" onclick="validate()">Sign In</button>
                 </div>
-                <div class="column">
-                    <div class="column">
-                        <ul style="list-style: none;">
-                            <li><h1>SOLUTIONS</h1></li>
-                            <li><a href="soon.html">Education</a></li>
-                            <li><a href="soon.html">E-Commerce</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="column">
-                        <ul style="list-style: none;">
-                            <li><h1>COMPANY</h1></li>
-                            <li><a href="soon.html">About US</a></li>
-                            <li><a href="soon.html">Career</a></li>
-                            <li><a href="soon.html">Terms of Use</a></li>
-                            <li><a href="soon.html">Privacy Policy</a></li>
-                            <li><a href="soon.html">Partners</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="column">
-                        <ul style="list-style: none;">
-                            <li><h1>HELP & SUPPORT</h1></li>
-                            <li><a href="soon.html">Support</a></li>
-                            <li><a href="soon.html">FAQs</a></li>
-                            <li><a href="soon.html">Knowledge base</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="fso">
-                <h1>FIND US ONLINE</h1>
-                <a href="soon.html" class="fa fa-facebook"></a>
-                <a href="soon.html" class="fa fa-twitter"></a>
-                <a href="https://www.instagram.com/mohurpe/" target="_blank" class="fa fa-instagram"></a>
-                <a href="https://github.com/rrsethi/MohurPe" target="_blank" class="fa fa-github"></a>
-                <a href="soon.html" class="fa fa-linkedin"></a>
-            </div>
-            <div class="copyright">
-                <div>&copy MohurPe 2021</div>
-                <div>All Rights Reserved</div>
-            </div>
+        </form>
         </section>
     </section>
 </body>
-<script src="script.js"></script>
+<script src="javaScript/login.js"></script>
 </html>
