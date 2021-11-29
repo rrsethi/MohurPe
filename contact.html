@@ -26,10 +26,10 @@
                         <a class="logout" href="login.html">Log In</a>
                     </div>
                     <div class="pcMenu">
-                        <a class="centerMenu active" style="float:none" href="index.html">Home</a>
+                        <a class="centerMenu" style="float:none" href="index.html">Home</a>
                         <a class="centerMenu" href="soon.html">Payment Solution</a>
                         <a class="centerMenu" href="soon.html">Partner</a>
-                        <a class="centerMenu" href="contact.html">Contact</a>
+                        <a class="centerMenu active" href="contact.html">Contact</a>
                         <a class="centerMenu" href="soon.html">About</a>
                         <a class="rightMenu logout" href="signup.html">Sign Up</a>
                         <a class="rightMenu logout" href="login.html">Log In</a>
@@ -37,63 +37,31 @@
                 </div>
             </section>
             <div id="menu">
-                <a class="active" href="index.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="soon.html">Payment Solution</a>
                 <a href="soon.html">Partner</a>
-                <a href="contact.html">Contact</a>
+                <a class="active" href="contact.html">Contact</a>
                 <a href="soon.html">About</a>
                 <div style="background-color:rgb(224, 233, 254);"><br></div>
                 <a class="logout" href="login.html">Log In</a>
                 <a class="logout" href="signup.html">Sign Up</a>
             </div>
         </section>
-        <section id="wtmContent" class="logout">
-            <h1>Welcome to MohurPe!</h1>
-            <div class="dash"></div>
-            <div class="wtmText">Secured way to accept payment from customers, recharge & pay bills, book tickets. Automate payouts to vendors & employees. Autopay bills and more...</div>
-            <a href="signup.html"><button>Sign Up Now!</button></a>
-        </section>
         <br>
-        <section id="offers">
-            <h1>%Offers</h1>
-            <div class="ofr fade">
-                <img src="images/travelDiscount.png" align="left" alt="">
-                <div class="text">Get flat 20% off on<br> hotel and flight <br> bookings! </div>
-                <div class="tc">*T&C apply</div>
-            </div>
-            <div class="ofr fade">
-                <img src="images/friendDiscount.png" align="left" alt="">
-                <div class="text">Get cashback upto 25%<br>on making payment of <br> Rs.500 &
-                    above!</div>
-                <div class="tc">*T&C apply</div>
-            </div>
-            <div class="ofr fade">
-                <img src="images/cardDiscount.png" align="left" alt="">
-                <div class="text">Get cashback upto 5%<br> on paying your credit<br> card bill!</div>
-                <div class="tc">*T&C apply</div>
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-        </section>
-        <section id="emb">
-            <h1 class="bme">Explore MohurPe <br>  <div style="color:rgb(71, 104, 252); padding-bottom: 20px;">Banking</div></h1>
-            <div class="emb">
-                <h1 class="bme1">Open and operate now the secured and fully-functional MohurPe account and enjoy the benefits!</h1>
-                <div class="elements">&#9989 100% secured</div>
-                <div class="elements">&#9989 Faster and easy</div>
-                <div class="elements">&#9989 Automated payments</div>
-                <div class="elements">&#9989 All standard banking features</div>
-                <div class="elements">&#9989 Multi platform support</div>
-                <div class="elements">&#9989 Business Tools</div>
-                <div class="elements">&#9989 Payment Gateway</div>
-            </div>
-            <br>
-        </section>
+        <div id="contact">
+            <form action="">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                <label for="emain">Contact email</label>
+                <input type="email" id="email" name="email" placeholder="Your email...">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+                <input type="submit" value="Submit" onclick="alrt()">
+            </form>
+          </div>
+        <br>
         <section id="footer">
             <div class="columns">
                 <div class="column">
@@ -177,6 +145,7 @@
     </section>
 </body>
 <script src="script.js"></script>
+<script src="javaScript/function.js"></script>
 </html>
 
 <!--

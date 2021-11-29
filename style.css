@@ -410,6 +410,45 @@ body, html {
     color: #fff;
 }
 
+#contact{
+    max-width: 800px;
+    margin: auto;
+    color: #fff;
+}
+#contact input[type=text], input[type=email],#contact select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #00052b;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#contact input[type=submit] {
+    cursor: pointer;
+    /* float: right; */
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #00052b;
+    background-color: rgb(224, 233, 254);
+    border-radius: 20px;
+}
+
+#contact input[type=submit]:hover {
+    background-color: #00052b;
+}
+
+#signup {
+    padding-top: 10px;
+}
 #signup .logo img{
     float:left;
     height: 1.5rem;
@@ -421,7 +460,6 @@ body, html {
     float:left;
     text-decoration: none;
     color: #fff;
-    /* padding-top: 10px; */
     text-align: center;
     font-size: 26px;
     padding: 7px;
@@ -429,8 +467,6 @@ body, html {
 }
 
 #signup .splogin a{
-    /* float: right; */
-
     color: #fff;
     text-align: center;
     font-size: 18px;
@@ -473,7 +509,6 @@ body, html {
 }
 
 #form label{
-    /* background-color: red; */
     padding-right: 10px;
 }
 
@@ -489,14 +524,16 @@ body, html {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-  
+#form input:hover{
+    background-color:rgba(224, 233, 254, 0.445);
+    outline: none;
+}
 #form input:focus {
     background-color:rgba(224, 233, 254, 0.445);
     outline: none;
 }
 
 #form button{
-    /* float: right; */
     text-align: center;
     padding: 5px;
     padding-left: 50px;
@@ -516,17 +553,10 @@ body, html {
 }
 
 #signin{
-    /* align: center; */
-    /* position: absolute;
-    top: 20%; */
-    /* margin-top: 100px; */
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
-    /* margin-top: 250px;
-    margin-bottom: 0px; */
-    /* margin-left: 20%; */
-    /* margin-right: 20%; */
+    padding-top: 10px;
 }
 
 #signin .logo img{
@@ -540,7 +570,6 @@ body, html {
     float:left;
     text-decoration: none;
     color: #fff;
-    /* padding-top: 10px; */
     text-align: center;
     font-size: 26px;
     padding: 7px;
@@ -550,8 +579,6 @@ body, html {
 
 
 #signin .snsignup a{
-    /* float: right; */
-
     color: #fff;
     text-align: center;
     font-size: 18px;
@@ -578,26 +605,229 @@ body, html {
     color: #fff;
 }
 
+#payment {
+    padding-top: 1px;
+}
+#payment .logo img{
+    float:left;
+    height: 1.5rem;
+    padding: 10px;
+    padding-right: 0.3em ;
+}
+
+#payment .logoText a{
+    float:left;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    padding: 7px;
+    padding-left: 0;
+}
+
+#paymnet .psignout a{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+#payment .psignout button{
+    float: right;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #00052b;
+    background-color: rgb(224, 233, 254);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#payment .psignout button:hover {
+    background-color: #00052b;
+    color: #fff;
+}
+
+#payment{
+    margin: auto;
+    max-width: 800px;
+}
+#toId {
+    margin-top: 50px;
+    
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+    color: #00052b;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
 
 
 
-/* Hello I am RR Sethi
-wekmdsc
-dwmklcsx
-wkwdkcx'
-dndslx
-ndlscxlx
-m;llds
-x d
-dskcmk
-wsx,dcl
-nkwd;ml
-nkxl
-k;dsx';
-ms;x
-mkl'wd
 
-*/
+#pmethod {
+    
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+    color: #00052b;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+#pmethod input[type=checkbox]{
+    width: auto;
+    margin: 7px;
+    margin-left: 0px;
+}
+
+#card {
+    display: none;
+    /* visibility: hidden; */
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+    color: #00052b;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+
+#payment input{
+    width: 95%;
+    padding: 7px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 10px;
+    background: rgb(247, 249, 254);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+ 
+#payment input:focus{
+    background-color:rgba(224, 233, 254, 0.445);
+    outline: none;
+}
+#payment input:hover{
+    background-color:rgba(224, 233, 254, 0.445);
+    outline: none;
+}
+
+#card .cvv{
+    width: 100px;
+}
+
+#payment button{
+    margin-top: 10px;
+    margin-left: 45%;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #00052b;
+    background-color: rgb(224, 233, 254);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#payment button:hover {
+    background-color: #00052b;
+    color: #fff;
+}
+
+#nb, #upi, #pytm, #pz {
+    display: none;
+    /* visibility: hidden; */
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+    color: #00052b;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+#success {
+    height: 100%;
+    max-width:400px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#success .logo img{
+    /* float:left; */
+    height: 50px;
+    padding: 10px;
+    padding-right: 0.3em ;
+}
+
+#success .logoText a{
+    /* float:left; */
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+#success button{
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 1%;
+    background-color: rgb(224, 233, 254);
+    color: #00052b;
+    font-size: 3vw;
+    border-color: rgb(224, 233, 254);
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+}
+
+#success button:hover {
+    background-color: #00052b;
+    color: #fff;
+}
+
+#success .trSuccess{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    /* padding-top: 100px; */
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#success .trSuccess h1{
+    font-size: 30px;
+}
 
 @media only screen and (min-width: 640px) {
     #soon .logo img{
@@ -728,8 +958,6 @@ mkl'wd
     }
 
     #emb{
-        /* color: rgb(224, 233, 254); */
-        /* padding: 10px; */
         padding-left: 10vw;
         padding-right: 10vw;
     }
@@ -738,9 +966,6 @@ mkl'wd
     }
 
     #emb .emb{
-        /* background-color: #00052b; */
-        /* box-shadow: 1px 1px 3px 3px rgba(147, 179, 255, 0.274); */
-        /* padding: 10px; */
         font-size: 25px;
     }
     #emb .emb h1{
@@ -765,17 +990,21 @@ mkl'wd
     }
 
     #signup{
-        /* align: center; */
         margin: auto;
         width: 800px;
-        /* margin-left: 20%; */
-        /* margin-right: 20%; */
     }
-    
-    /* #signup {
-        background-color: #fff;
-        padding-top: 60px;
-        padding-left: 25vw;
-    } */
+
+    #success button{
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+        font-size: 20px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
 
 }

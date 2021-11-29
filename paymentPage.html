@@ -14,8 +14,113 @@
 
 <body>
     <section id="Web">
-        <section id="Contnet" style="color: aqua;"> Hello World </section>
+        <section id="payment">
+            <div class="logo">
+                <a href="paymentPage.html"><img src="images/mLogo1.png" alt=""></a>
+            </div>
+            <div class="logoText">
+                <a href="paymentPage.html"><h1>MohurPe</h1></a>
+            </div>
+            <div class="psignout">
+                <a href="index.html"><button type="button">Sign Out</button></a>
+            </div>
+            <form id="payForm" action="paySuccess.html">
+                <div id="toId">
+                    <label><b>Pay Username</b></label>
+                    <input type="text" placeholder="Enter username" name="usrname" required >
+                    <label><b>Amount</b></label>
+                    <input type="number" placeholder="Enter amount" name="amount" required >
+                </div>
+                <br>
+                <div id="pmethod">
+                    <h1>Select Payment Method</h1>
+                    <!-- <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <labmel for="vehicle1"> I have a bike</labmel><br> -->
+                    <input id="chcard" class="checkbox" type="checkbox" value="trydf" onclick="fncard()">
+                    <label for="">Debit/Credit/ATM Card</label><br>
+                    <input id="chnb" class="checkbox" type="checkbox" onclick="fnnb()">
+                    <label for="">Net Banking</label><br>
+                    <input id="chupi" class="checkbox" type="checkbox" onclick="fnupi()">
+                    <label for="">UPI</label><b></b><br>
+                    <input id="chpytm" class="checkbox" type="checkbox" onclick="fnpytm()">
+                    <label for="">Paytm Wallet</label><br>
+                    <input id="chpz" class="checkbox" type="checkbox" onclick="fnpz()">
+                    <label for="">Payzapp Wallet</label><br>
+                </div>
+                <br>
+                <div class="pmd" id="card">
+                    <label><b>Card number</b></label>
+                    <input type="number" placeholder="Enter card number" name=""  >
+                    <label><b>Name on card</b></label>
+                    <input type="text" placeholder="Enter name" name=""  >
+                    <label><b>Expiry date</b></label>
+                    <select class="month">
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select class="year">
+                        <option value="1">2021</option>
+                        <option value="2">2022</option>
+                        <option value="3">2023</option>
+                        <option value="4">2024</option>
+                        <option value="5">2025</option>
+                        <option value="6">2026</option>
+                        <option value="7">2027</option>
+                        <option value="8">2028</option>
+                        <option value="9">2029</option>
+                        <option value="10">2030</option>
+                        <option value="11">2031</option>
+                        <option value="12">2032</option>
+                        <option value="13">2033</option>
+                        <option value="14">2034</option>
+                        <option value="15">2035</option>
+                        <option value="16">2036</option>
+                        <option value="17">2037</option>
+                        <option value="18">2038</option>
+                        <option value="19">2039</option>
+                        <option value="20">2040</option>
+                        <option value="21">2041</option>
+                    </select>
+                    <label style="padding-left: 50px;"><b>CVV</b></label>
+                    <input class="cvv" type="number" placeholder="cvv" name=""  >
+                </div>
+                <div class="pmd" id="nb">
+                    <label><b>Id</b></label>
+                    <input type="number" placeholder="Enter banking id" name=""  >
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter password" name=""  >
+                </div>
+                <div class="pmd" id="upi">
+                    <label><b>UPI Id</b></label>
+                    <input type="number" placeholder="Enter UPI id" name=""  >
+                </div>
+                <div class="pmd" id="pytm">
+                    <label><b>Paytm Number</b></label>
+                    <input type="number" placeholder="Enter paytm number" name=""  >
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter password" name=""  >
+                </div>
+                <div class="pmd" id="pz">
+                    <label><b>Payz ID</b></label>
+                    <input type="number" placeholder="Enter payz number" name=""  >
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter password" name=""  >
+                </div>
+                <button type="submit">Pay</button>
+            </form>
+       </section>
     </section>
 </body>
-<script src="javaScript/login.js"></script>
+<!-- <script src="javaScript/login.js"></script> -->
+<script src="javaScript/paymentPage.js"></script>
 </html>
