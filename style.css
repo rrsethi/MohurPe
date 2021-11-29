@@ -8,12 +8,10 @@
 body, html {
     height: 100%;
     background-color: #00052b;
-    /* background-color: rgb(224, 233, 254); */
 }
 
 #Web {
     background-color: #00052b;
-    /* background-color: rgb(224, 233, 254); */
 }
 
 #header{
@@ -268,7 +266,6 @@ body, html {
 #footer{
     background-color: rgb(224, 233, 254);
     color: #00052ba1;
-    /* padding: 10px; */
     font-size: 16px;
     text-decoration: none;
 }
@@ -291,7 +288,6 @@ body, html {
     max-width: 100%;
     padding: 9px;
     padding-bottom: 0;
-    /* padding-right: 10px; */
 }
 
 #footer .columns {
@@ -754,7 +750,6 @@ body, html {
 
 #nb, #upi, #pytm, #pz {
     display: none;
-    /* visibility: hidden; */
     background-color: #fff;
     border-radius: 25px;
     padding: 15px;
@@ -776,14 +771,12 @@ body, html {
 }
 
 #success .logo img{
-    /* float:left; */
     height: 50px;
     padding: 10px;
     padding-right: 0.3em ;
 }
 
 #success .logoText a{
-    /* float:left; */
     text-decoration: none;
     color: #fff;
     text-align: center;
@@ -817,7 +810,6 @@ body, html {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #fff;
-    /* padding-top: 100px; */
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -869,7 +861,7 @@ body, html {
         color: #fff;
     }
     #header .pcMenu .profile img{
-        /* float:left; */
+
         height: 1.5rem;
         border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -921,17 +913,13 @@ body, html {
 
     #offers {
         display: block;
-        /* border-left: 10vw; */
         padding-left: 10vw;
         padding-right: 10vw;
-        /* text-align: center; */
     }
 
     #offers .ofr img{
         position: relative;
         background-size: 100%;
-        /* border-left: 10vw; */
-
         width: 80vw;
         height: 40vw;
     }
